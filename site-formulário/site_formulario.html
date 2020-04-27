@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+		<style type="text/css">
+		* {
+			margin: 0;
+		}
+		body {
+			background-color: #F2F2F2;
+		}
+		#cabeçario {
+			background-color: black;
+			height: 50px;
+		}
+		.caixas-de-texto {
+			outline: none;
+			border-right:0;
+			border-top: 0;
+			border-left: 0;
+			border-bottom: 1px solid black;
+			padding: 10px;
+			margin-top: 10px;
+			background-color: #F2F2F2;
+		}
+		#ps {
+			margin-left: 63%;
+			float: left;
+			width: 200px;
+			margin-top: 5px;
+			margin-bottom: 5px;
+		}
+		.menu {
+			
+			margin-left: 80%;
+
+
+		}
+
+		.menu ul li a:hover {
+			color: #fff;
+		}
+		.menu ul {
+			padding: 13px;
+
+		}
+		.menu ul li {
+			display: inline;
+			padding: 10px;	
+		}
+		.menu ul li a {
+			text-decoration: none;
+			color: grey;
+			padding: 10px;
+			
+}
+		#conteudo-relacionado {
+			float: left;
+			margin: 10px;
+			width: 22.5%;
+			height: 500px;
+			background-color: grey;
+		}
+		#conteudo {
+			margin: 20px;
+			margin-left:25%;
+		}
+
+		</style>
+	</head>
+		
+	<body>
+	
+		<header>
+			<div id="cabeçario">
+				<input type="text" name="pesquisa" id="ps" class="caixas-de-texto" placeholder="pesquisar">
+				<div class="menu">
+					<nav>
+						<ul>
+							<li><a href="#">configirações</a></li>
+							<li><a href="#">Perfil</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>	
+			
+		</header>
+			<div id="conteudo-relacionado">
+				<aside>
+
+				</aside>
+			</div>
+			<div id="conteudo">
+				<form>
+				<section>
+				<h1><b>Novo Usuário</b></h1><br>
+				<b>Nome:</b><br><input style="width: 96%; margin-bottom: 5px;" type="text" name="nome" class="caixas-de-texto" placeholder="Informe seu nome" required><br>	
+				<b>CPF:</b><b style="margin-left: 20%;">Endereço:</b><b style="margin-left: 57%;">Níveis de demençia:</b><br>
+				<input type="text" style="width: 20%; margin-bottom: 5px;" name="cpf" class="caixas-de-texto" placeholder="Digite seu cpf" required>
+				<input type="text" style="margin-left: 10px; width:60%;" name="endereço" class="caixas-de-texto" placeholder="Digite seu endereço" required>
+
+				<select style="margin-left: 10px; width: 11.5%;" class="caixas-de-texto" name="níveis">
+					
+					<option value="op1">...</option>
+					<option value="op2">1</option>
+					<option value="op3">2</option>
+					<option value="op4">3</option>
+				</select><br>
+				<b>Email:</b><b style="margin-left: 44%;">Senha:</b><b style="margin-left: 34%;">Status:</b><br>
+				<input type="text" style=" width:45%; margin-right: 10px;" name="endereço" class="caixas-de-texto" placeholder="Digite seu email" required>
+				<input type="password" style=" width: 35%; margin-right: 10px;" name="endereço" class="caixas-de-texto" placeholder="Digite sua senha" required>
+				<select style="width: 11.5%;" class="caixas-de-texto" name="níveis">
+					
+					<option value="op1">...</option>
+					<option value="op2">1</option>
+					<option value="op3">2</option>
+					<option value="op4">3</option>
+				</select><br>
+				<input style="margin-left: 83%; margin-top: 10px; padding: 13px; background-color: #01DF01; border: 0;" type="submit" id="bts1" name="bt1" value="enviar">
+				<input style=" margin-left: 5px; margin-top: 10px; padding: 13px; background-color: #848484; border: 0;" type="reset" id="bts2" name="bt2" value="limpar">
+				</form>
+			</section>
+			</div>
+			<script type="text/javascript">
+
+				alert(ms);
+
+
+			</script>
+	</body>
+</html>

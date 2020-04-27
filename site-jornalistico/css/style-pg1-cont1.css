@@ -1,0 +1,161 @@
+* {
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	outline: none; 
+}
+div,nav {
+	/*border: 0.1px solid black;*/
+}
+html {
+	scroll-behavior: smooth;/* comportamento de rolagem: suave;*/
+}
+a {
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+}
+.p-title {
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+}
+
+/*ÁREA DE MENU*/
+
+.div-menu {
+	height: 90px;
+	background-color:#C52222;
+	position: fixed;
+	width: 100%;
+}
+.div-logo {
+	margin-left: 1%;
+	margin-top: 25px;
+	width: 50px;
+	border-radius: 100%;
+	height: 50px;
+	float: left;
+}
+.img-logo {
+	border-radius: 100%;
+}
+.menu {
+	float: left;
+	margin-top: 30px;
+	margin-left: 5%;
+}
+.menu ul {
+	padding: 10px;
+}
+.menu ul li {
+	display: inline;
+	padding: 10px;	
+}
+.menu ul li a{
+	padding: 10px;
+	color: #fff;
+}
+.menu ul li a:hover{
+	color: #D8D8D8;
+}
+.div-ps {
+	margin-top: 35px;
+	margin-left: 68%;
+	margin-right: 10px;
+
+}
+.input-text {
+	padding: 6px;
+	float: left;
+	border-radius: 3px;
+	border: 0;
+}
+.bt-ps {
+	font-size: 22px;
+	margin-left:10px;
+	color: #fff;
+	background: rgba(0,0,0,0.0);
+	border:0;
+}
+.a-inf {
+	color: #fff;
+	font-size: 22px;
+	margin-left: 30%;
+}
+.a-inf:hover {
+	color:#D8D8D8;
+}
+.p-data {
+	color:#848484;
+	margin-left: 70%;
+	font-family: 'Lato', sans-serif;
+}
+
+/*ÁREA DE CONTEUDO*/
+
+.div-border {
+	height: 90px;
+	width: 100%;
+}
+.div-center {
+	margin: auto;
+	width: 80%;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+.div-int-center {
+	margin:5px;
+}
+.div-p-title-int-center {
+	margin: 10px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.p-title-int-center {
+	color:#B40404;
+	font-size: 290%;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+.div-p-cont-int-center {
+	
+	width: 900px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	
+}
+.div-img-int-center {
+	height: 400px;
+	width: 750px;
+	background-size: 110%;
+	background-repeat: no-repeat;
+	background-image: url(../img/img-cont2-di.jpg);
+	margin: auto;
+}
+.p-text {
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Lato', sans-serif;
+	font-size: 150%;
+
+}
+.div-p-cont2-int-center {
+	width: 900px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.btn {
+    display: flex; /*exibição: flex; */
+    justify-content: center; /*justificar-conteúdo: centro; */
+    align-items: center; /* itens de alinhamento: centro;*/
+    position: fixed;
+    border-radius: 100%;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background-color:#C52222;
+    text-decoration: none;
+    color: #fff;
+}
