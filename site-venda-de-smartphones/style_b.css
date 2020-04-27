@@ -1,0 +1,27 @@
+.bt_cont {
+
+	display: none;
+}
+.bt {
+	display: none;
+}
+.bt:checked ~ .bt_cont {
+	display: block;
+}
+.x {
+	display: none;
+}
+#entrar_ct:checked ~ .x {
+	display: block;
+}
+.bt {
+	float: left;
+}
+.cont_int {
+	background-color: #fff;
+	width: 90%;
+}
+#entrar_ct:checked ~ .ct_n  {
+	display: none;
+}
+

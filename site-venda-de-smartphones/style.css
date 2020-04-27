@@ -1,0 +1,249 @@
+* {
+	margin: 0;
+}
+/* MENU_PRINCIPAL */
+	#menu {
+	width: 100%;
+	background-color:#1C1C1C;	
+	padding: 15px;	
+	border-bottom: 2px solid #DF0101;
+	position: fixed;
+	}
+	#menu ul {
+	margin-left: 60%;
+	}
+	#menu ul li {	
+	display: inline;
+	padding: 15.5px;
+	}
+	#menu ul li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 15.5px;
+	}
+	#menu ul li:hover {
+
+	background-color: #DF0101;
+	}
+	#espaço {
+	width: 100%;
+	height: 50px;
+	}
+	#cabeçario {
+	background-color: black;
+	width: 100%;
+	height: 400px;
+	}
+	#pesquisa {
+	background-color:#151515;
+	}	
+
+/* CONTEUDO_PRINCIPAL */
+	#conteudo {
+	float: left;
+	margin: 5px;
+	height: 535px;
+	width: 70%;
+	background-color:#fff;
+	}
+	.caixa {
+		background: #fff;
+		height: 200px;
+		width: 18%;
+		margin: 7.5px;
+		float: left;
+	}
+	.caixa b {
+		color: #FF0000;
+	}
+	.caixa p {
+
+		text-align: center;
+	}
+
+	.img {
+		margin-top: 10px;
+		margin-left: 30px;
+		width: 100px;
+		height: 100px;
+	}
+	.but_ir {
+		margin-left: 29%;
+		padding:7px;
+		border: 0;
+		background-color:#1C1C1C;
+		border-radius: 5px;
+
+		color: #fff; 
+	}
+	.but_ir:hover {
+		background-color: #DF0101;
+	}
+	
+
+/* LOGIN_INPUT */
+
+
+	.bt_cont {
+
+	display: none;
+}
+.bt {
+	display: none;
+}
+.bt:checked ~ .bt_cont {
+	display: block;
+}
+.x {
+	display: none;
+}
+#entrar_ct:checked ~ .x {
+	display: block;
+}
+.bt {
+	float: left;
+}
+.cont_int {
+	background-color: #fff;
+	width: 90%;
+}
+#entrar_ct:checked ~ .ct_n  {
+	display: none;
+}
+
+
+	#ps {
+	margin-left: 75%;
+	padding: 7px;
+	border: 0;
+	margin-top: 10px;
+	margin-bottom: 10px; 
+	}
+	.bt_p{
+
+	background-color:#DF0101;
+	color: #fff; border: 0;
+	padding: 7px;
+	}
+	.ct_n p {
+		text-align: center;
+		margin-top: 15px;
+	}
+
+	.x p {
+		padding: 7px;
+		 color: #fff;
+		border-radius: 5px;
+		background-color: #DF0101;
+		width: 40px; 
+		margin-left: 40%;
+		margin-top: 10px;
+	}
+	.x p:hover {
+		background-color: #B40404;
+	}
+
+	.ct_n p b {
+		padding: 10px;
+		background-color: #DF0101;
+		border-radius: 5px;
+ 		color: #fff;
+	}
+	.ct_n p b:hover {
+		background-color:#B40404;
+	}
+
+	
+
+	.bt2:checked ~ #sair_ct2 {
+		display: block;
+	}
+	#cadastro_ct {
+		display: none;
+	}
+	
+	.bt2:checked ~ .bt_cont2 {
+		display: block;
+	}
+
+	.bt_cont2 {
+		display: none;
+	}
+
+	.bt2:checked ~ .ct_n {
+
+		display: none;
+	}
+
+	#cadastro_ct2:checked ~ .ct_n {
+		display: none;
+	}
+	
+	.bt2:checked ~ .ct_n2 {
+		display: none;
+	}
+	
+
+	.bt2:checked ~ .x2 {
+		display: block;
+	}
+	.x2 {
+		display: none;
+	}
+
+	.x2 {
+		padding: 7px;
+		 color: #fff;
+		border-radius: 5px;
+		background-color: #DF0101;
+		width: 40px; 
+		margin-left: 40px;
+		margin-top: 10px;
+	}
+
+	.ct_n2 {
+		
+		padding: 10px;
+		background-color: #DF0101;
+		border-radius: 5px;
+ 		color: #fff;
+
+	}
+	.ct_n2 b {
+	}
+
+/* ÁREA_LOGIN_CONTEUDO */
+	#area_login {
+	margin-left: 72%;
+	margin-top: 15px;
+	margin-right: 5px;
+	height:535px;
+	}
+	#rodape {
+	height: 100px;
+	background-color: #424242;
+	border: 1px solid black;
+	width: 99,5%;
+	}
+	.cabeçario_login {
+	height: 50px;
+	margin: 10px;
+	}
+	.cont_login {
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color:#1C1C1C;
+	height: 170px;
+	margin: 15px;
+	}
+
+	.cont_sub_2 {
+		margin: 15px;
+		border-radius: 5px;
+		height: 240px;
+		background-color: #1C1C1C;
+		margin-top: 10px;
+		border: 1px solid black;
+
+	}
+
